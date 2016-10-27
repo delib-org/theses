@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lost at sea</title>
+
+    <link rel="stylesheet" href="jqury-ui/jquery-ui.theme.css">
+    <link rel="stylesheet" href="jqury-ui/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="jqury-ui/mobile-adjust.js"></script>
+
+    <script src="handlebars-v4.0.5.js"></script>
+    <script src="handlebars-v4.0.5-helper.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/3.5.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBW4Ty8cdaUGohEbBwXkoPGe_fh_yDz5zM",
+        authDomain: "delibtests.firebaseapp.com",
+        databaseURL: "https://delibtests.firebaseio.com",
+        storageBucket: "delibtests.appspot.com",
+        messagingSenderId: "612739213308"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src="sort.min.js"></script>
+    <script src="getIp.js"></script>
+    <!--
+<script src="jquery-mobile/jquery.js"></script>
+<link rel="stylesheet" href="jquery-mobile/theme.css">
+-->
+
+
+
+
+  </head>
+  <body dir="rtl">
+
+    <div>
+      <div id="personalTitle">בחירה אישית
+        <button onclick="setSorting()" id="buttonSort">הפסקת סידור</button>
+        <!--        <input type="button" value="עריכת תוכן" onclick="setSorting()" id="buttonSort">-->
+      </div>
+      <div id="sortable"></div>
+    </div>
+
+
+    <div id="groupSort">
+      <div id="groupTitle"><h3>הסכמת הקבוצה: <span id="diff"></span></h3></div>
+      <div id="groupFit"></div>
+      <div id="groupSorts">
+        <div id="groupSortTools"></div>
+        <div id="groupMatch"><div id=groupMatchBar></div></div>
+      </div>
+
+    </div>
+    <div id="login"><div class="loginBtn" onclick="login()"><span>התחבר/י</span></div></div>
+
+
+
+
+    <script src="app.js"></script>
+
+    <!--     templates  -->
+    <script id="tool-tmpl" type="text/x-handlebars-template">
+
+      <div id="{{enMame}}" class="accordion">
+        <h3 id="header{{enMame}}" style=background:{{backgroundColor}}>{{heName}}</h3>
+        <div class="accordionContent">
+          <input type="text" id="{{enMame}}Input" class="reasonsInput" placeholder="הוסף/י סיבות לחשיבות הכלי"><button onclick=setReason("{{enMame}}") class="reasonsInput">אישור</button>
+          <table id="{{enMame}}Reasons" class="reasons"></table>
+        </div>
+      </div>
+
+    </script>
+
+    <script id="toolDis-tmpl" type="text/x-handlebars-template">
+
+      <div id="{{enMame}}">
+        <h3 id="header{{enMame}}" style=background:{{backgroundColor}} class="accordionDis">{{heName}}</h3>
+      </div>
+
+    </script>
+  </body>
+</html>
