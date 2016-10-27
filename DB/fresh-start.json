@@ -1,0 +1,112 @@
+{
+  "chockolate" : {
+    "backgroundColor" : "lightcoral",
+    "heName" : "2 חפיסות שוקולד",
+    "position" : 0,
+    "reasons" : {
+      "placeholder" : "placeholder"
+    }
+  },
+  "fishingRod" : {
+    "backgroundColor" : "lightpink",
+    "heName" : "חכה",
+    "position" : 0,
+    "reasons" : {
+      "placeholder" : "placeholder"
+    }
+  },
+  "food" : {
+    "backgroundColor" : "lightseagreen",
+    "heName" : "מנות מזון משומרות",
+    "position" : 0,
+    "reasons" : {
+      "placeholder" : "placeholder"
+    }
+  },
+  "gaz" : {
+    "backgroundColor" : "lightskyblue",
+    "heName" : "10 ליטר בנזין",
+    "position" : 0,
+    "reasons" : {
+      "placeholder" : "placeholder"
+    }
+  },
+  "map" : {
+    "backgroundColor" : "gray",
+    "heName" : "מפה של הים",
+    "position" : 0,
+    "reasons" : {
+      "placeholder" : "placeholder"
+    }
+  },
+  "mirror" : {
+    "backgroundColor" : "lightgreen",
+    "heName" : "מראה לגילוח",
+    "position" : 0
+  },
+  "msqNet" : {
+    "backgroundColor" : "lightskyblue",
+    "heName" : "רשת יתושים",
+    "position" : 0,
+    "reasons" : {
+      "placeholder" : "placeholder"
+    }
+  },
+  "naylon" : {
+    "backgroundColor" : "limegreen",
+    "heName" : "יריעות ניילון",
+    "position" : 0,
+    "reasons" : {
+      "placeholder" : "placeholder"
+    }
+  },
+  "radio" : {
+    "backgroundColor" : "lightgray",
+    "heName" : "רדיו קטן עם בטריות",
+    "position" : 0,
+    "reasons" : {
+      "placeholder" : "placeholder"
+    }
+  },
+  "rope" : {
+    "backgroundColor" : "#88ef98",
+    "heName" : "15 מטר של חוט דייג",
+    "position" : 0,
+    "reasons" : {
+      "placeholder" : "placeholder"
+    }
+  },
+  "sextant" : {
+    "backgroundColor" : "lightblue",
+    "heName" : "סקסטאנט",
+    "position" : 0,
+    "reasons" : {
+      "placeholder" : "placeholder"
+    },
+    "text" : "sextant"
+  },
+  "sharkRep" : {
+    "backgroundColor" : "#ef88ac",
+    "heName" : "חומר דוחה כרישים",
+    "position" : 0,
+    "reasons" : {
+      "placeholder" : "placeholder"
+    }
+  },
+  "vodka" : {
+    "backgroundColor" : "#e32e6d",
+    "heName" : "בקבוק וודקה",
+    "position" : 0,
+    "reasons" : {
+      "placeholder" : "placeholder"
+    }
+  },
+  "water" : {
+    "backgroundColor" : "lightblue",
+    "heName" : "מיכל מים גדול",
+    "position" : 0,
+    "reasons" : {
+      "placeholder" : "placeholder"
+    }
+  }
+}
